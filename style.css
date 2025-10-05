@@ -1,0 +1,35 @@
+h1 {font-family:sego UI;
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  color:grey;
+  letter-spacing:3px;
+  border:2px solid hotpink;
+  line height:48px;
+  background:pink; 
+}
+
+ul { display: flex;
+  justify- content: center;
+  gap: 50px;
+}
+
+a {color: pink;
+  font-family:times new roman, arial;
+  font-size:13px;
+  letter-spacing:3px;
+  text-decorating:underline;
+  font-weight:bold;
+}
+table{color:grey;
+border:7px hotpink;
+border-collapse:collapse;
+  height:100px;
+  width:20%;
+  background-color:pink;
+}
+
+td{front-weight:bold;
+font-family:segoe UI;
+}
+th
