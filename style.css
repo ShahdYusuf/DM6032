@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:segoe UI,Arial;
+}
+
+body{
+  background:lightgrey;
+  color:black;
+  padding-top:65px;
+  text-align:center;
+}
+
+nav{
+  position:fixed;
+  background:lightblue;
+  top:0;
+  width:100%;
+}
+
+nav ul{
+  justify-content:center;
+  list-style:none;
+  gap:20px;
+  display:flex;
+}
+
+.table{
+  margin:18px auto;
+  border:2px solid darkblue;
+  border-collapse:collapse;
+  width:50%;
+}
+
+.table th{
+  background:lightblue;
+  color:white;
+  border:2px solid darkblue;
+}
+
+.table th,
+.table td{border:2px solid darkblue;}
+
+.table img{
+  width:50px;
+  height:50px;
+  object-fit:cover;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+#logo{width:30%;}
